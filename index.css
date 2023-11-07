@@ -14,17 +14,10 @@ body {
     flex-direction: column;
 }
 
-
 #globalnav {
     background-color: var(--globalnav-background);
-}
-
-
-
-#top {
-    background-color: LightCoral;
     height: 150px;
-    border-bottom: 3px solid Crimson;
+    /* border-bottom: 3px solid Crimson; */
 }
 
 #pagewrap {
