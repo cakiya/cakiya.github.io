@@ -1,0 +1,23 @@
+/* Stolen from https://stackoverflow.com/questions/8280716/full-screen-width-div-area */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex; /* or css grid for more intricate layouts */
+    flex-direction: column;
+}
+
+#top {
+    background-color: LightCoral;
+    height: 150px;
+    border-bottom: 3px solid Crimson;
+}
+
+#pagewrap {
+    background-color: LightGreen;
+    flex-grow: 1; /* make it stretch to the bottom even if little content */
+    overflow-y: scroll; /* optional */
+}
