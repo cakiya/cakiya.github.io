@@ -1,3 +1,7 @@
+:root {
+    --globalnav-background: rgba(22, 22, 23, 0.8);
+}
+
 /* Stolen from https://stackoverflow.com/questions/8280716/full-screen-width-div-area */
 html, body {
     margin: 0;
@@ -9,6 +13,13 @@ body {
     display: flex; /* or css grid for more intricate layouts */
     flex-direction: column;
 }
+
+
+#globalnav {
+    --globalnav-background: rgba(22, 22, 23, 0.8);
+}
+
+
 
 #top {
     background-color: LightCoral;
